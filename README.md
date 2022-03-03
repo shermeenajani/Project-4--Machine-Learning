@@ -2,34 +2,40 @@
 
 Team Name: The Last Hurrah!
 
-Team Members: 
-Tim Smith
-Kristen Hanold
-Shermeen Ajani
+Team Members:
+
+    Tim Smith
+    Kristen Hanold
+    Shermeen Ajani
 
 Topic: 
 MUSHROOMS!
 
 Dataset: 
 https://archive.ics.uci.edu/ml/datasets/Mushroom
+
 "Sources: 
+
     (a) Mushroom records drawn from The Audubon Society Field Guide to North
         American Mushrooms (1981). G. H. Lincoff (Pres.), New York: Alfred
         A. Knopf
     (b) Donor: Jeff Schlimmer (Jeffrey.Schlimmer@a.gp.cs.cmu.edu)
     (c) Date: 27 April 1987"
 
+
 What problem are we solving? 
+
 We wanted to learn how to identify if a mushroom is edible or poisonous based on its characteristics.  The data set included 22 characteristics can be used to identify if a mushroom is poisonous or not.  Based on the characteristics there were 4,208 edible (51.8%) and 3,916 poisonous (48.2%) mushrooms in the dataset.
 
 
 What are we analyzing? 
+
 We analyzed the physical characteristics of the mushrooms using the UCI Mushroom dataset (link to the dataset above).
 
 "Attribute Information: (classes: edible=e, poisonous=p)
+
      1. cap-shape:                bell=b,conical=c,convex=x,flat=f,
-                                  knobbed=k,sunken=s
-                                  
+                                  knobbed=k,sunken=s                
      2. cap-surface:              fibrous=f,grooves=g,scaly=y,smooth=s
      3. cap-color:                brown=n,buff=b,cinnamon=c,gray=g,green=r,
                                   pink=p,purple=u,red=e,white=w,yellow=y
@@ -63,17 +69,23 @@ We analyzed the physical characteristics of the mushrooms using the UCI Mushroom
     22. habitat:                  grasses=g,leaves=l,meadows=m,paths=p,
                                   urban=u,waste=w,woods=d"
 
+
 Included in the repository is:
 1) Deep Learning Analysis: 
+
       a) Training a Neural Network Model using all 22 characteristics in the data set
+      
       b) Training a Neural Network Model using a subset of characteristics based on prior knowledge, experience and educated guess
+      
       c) Training a Neural Network Model using the 6 key characteristics identified in the README included with the dataset from UCI and using automated hyperparameter testing
 
 2) Tableau Workbook
 3) PowerPoint
 
+
 Findings:
 The six characteristics listed below are sufficient for identifying a mushroom as edible or poisonous:
+
       a) Odor
       b) Spore Print Color
       c) Habitat
