@@ -29,6 +29,7 @@ We analyzed the physical characteristics of the mushrooms using the UCI Mushroom
 "Attribute Information: (classes: edible=e, poisonous=p)
      1. cap-shape:                bell=b,conical=c,convex=x,flat=f,
                                   knobbed=k,sunken=s
+                                  
      2. cap-surface:              fibrous=f,grooves=g,scaly=y,smooth=s
      3. cap-color:                brown=n,buff=b,cinnamon=c,gray=g,green=r,
                                   pink=p,purple=u,red=e,white=w,yellow=y
